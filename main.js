@@ -62,7 +62,7 @@ function switchTab(tabId) {
         const disclaimerDiv = document.createElement('div');
         disclaimerDiv.id = 'disclaimer';
         disclaimerDiv.className = 'disclaimer-container';
-        disclaimerDiv.textContent = 'All event times are in GMT+2 (Server Time)';
+        disclaimerDiv.textContent = 'All event times are displayed in GMT+2 (Server Time)';
         scheduleDiv.appendChild(disclaimerDiv);
 
         // Create a parent div for the time containers
