@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-    switchTab('schedule');
+    switchTab('app');
 });
 
 function getSrvDt() {
@@ -199,6 +199,3 @@ fetch('data/events.json')
             eventsContainer.appendChild(eventContainer);
         }
     });
-
-// Switch to the "Main" tab by default
-switchTab('main');
