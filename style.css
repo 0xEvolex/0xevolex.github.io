@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+.changelog {
+    text-align: left;
+}
+
 .schedule-disclaimer {
     background-color: #ffffff0c;
     color: #C9D1D9;
