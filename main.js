@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     changeLogDiv.style.marginTop = '50px';
     changeLogDiv.style.marginLeft = '25%';
     changeLogDiv.innerHTML = `
-        <h3 style="text-align: left;">Change Log</h3>
+        <h3 style="text-align: left;">Changelog</h3>
         <p style="text-align: left;">
             <h2>1.4 Version - Latest<br></h2>
             1. No more events.json!<br>
