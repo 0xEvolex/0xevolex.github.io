@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     img2.style.margin = '10px';
     imageContainer.appendChild(img2);
 
-    // Add the download link as a button
     const downloadLink = document.createElement('a');
     downloadLink.href = 'downloads/sailor_events.rar';
     downloadLink.download = 'sailor_events.rar';
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     downloadLink.className = 'download-button';
     appDiv.appendChild(downloadLink);
 
-    // Add another div for change logs
     const changeLogDiv = document.createElement('div');
     changeLogDiv.className = 'change-log changelog';
     changeLogDiv.style.marginTop = '50px';
