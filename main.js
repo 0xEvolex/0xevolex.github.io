@@ -38,7 +38,29 @@ document.addEventListener('DOMContentLoaded', (event) => {
     changeLogDiv.innerHTML = `
         <h3 style="text-align: left;">Changelog</h3>
         <p style="text-align: left;">
-            <h2>1.4 Version - Latest<br></h2>
+            <h2>1.5 Version - Latest<br></h2>
+            1. Better visiblity and event tracking!<br>
+            <br>
+            &emsp; Now only events that are checked will be tracked in the "Next Event" headline.<br>
+            &emsp; Additionally, the "Next Event" headline will now show the next 2 events instead of just 1.<br>
+            <br>
+            2. Improvements to voice selection!<br>
+            <br>
+            &emsp; You can now choose voices that are available on your system, instead of switching between male/female (which was kinda buggy).<br>
+            <br>
+            3. No more updating for tooltip changes!<br>
+            <br>
+            &emsp; The app will now fetch the tooltips from the github repository, meaning on tooltip updates you only have to restart the app.<br>
+            <br>
+            5. Donations!<br>
+            <br>
+            &emsp; Added a donation button, if you like the app and want to support me, you can now do so!<br>
+            <br>
+            4. GUI improvements!<br>
+            <br>
+            &emsp; Voice selection is a dropdown now, slider has been updated to a more modern look.<br>
+            <br>
+            <h2>1.4 Version - Outdated<br></h2>
             1. No more events.json!<br>
             <br>
             &emsp;All events are now stored in a public github repository and the app will fetch them from it.<br>
@@ -66,18 +88,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <br>
             &emsp;a. Added a changelog to the website.<br>
             &emsp;b. Added a volume slider for sound alerts. (Requested by @webdev7)<br>
-            <h2>Coming soon / to be evaluated<br></h2>
-            1. Request from #imafkinpotato: Option for minimizing to system tray instead of task bar<br>
-            2. Request from #luminescencex: Only show events on the headline that you checked (+ dont log unchecked events)<br>
-            3. Request #webdev7: Ring sounds instead of voice sounds<br>
-            4. Show 2 next events on the headline instead of just 1 (Next Event: Ghost Hunt in 07:13 -> BA Random in 47:13)<br>
-            5. Indicate which events are running right now, it should display RUNNING on the timer label<br>
-            6. Request from (sorry I forgot): Option to disable lock out when theres a new version available<br>
-            7. Dark mode and or other themes<br>
-            8. More voice styles for sound alerts<br>
-            9. Auto update / download new version<br>
-            10. Autostart on boot<br>
-            11. Move away from tkinter and use a better GUI framework
             <h2>1.3 Version - Outdated<br></h2>
             1. A few bug fixes when transitioning to another day, happened with big timezone differences<br>
             2. Added fortress war timer<br>
