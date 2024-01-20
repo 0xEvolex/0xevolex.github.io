@@ -2,10 +2,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const appDiv = document.getElementById('app');
 
     const disclaimerDiv = document.createElement('div');
-    disclaimerDiv.textContent = 'An app that will display you all Sailor Events and allow you to set sound alarms for them!';
+    disclaimerDiv.innerHTML = 'An app that will display you all Sailor Events and allow you to set sound alarms for them!';
     disclaimerDiv.style.textAlign = 'center';
     disclaimerDiv.className = 'schedule-disclaimer';
     appDiv.appendChild(disclaimerDiv);
+
+    const disclaimerDiv2 = document.createElement('div');
+    disclaimerDiv2.innerHTML = 'Newest version currently gets flagged as a harmful file by windows defender, this is a false positive which I cant do anything about.';
+    disclaimerDiv2.style.textAlign = 'center';
+    disclaimerDiv2.className = 'schedule-disclaimer';
+    appDiv.appendChild(disclaimerDiv2);
+    
+    const disclaimerDiv3 = document.createElement('div');
+    disclaimerDiv3.innerHTML = 'Latest virustotal check: <a href="https://www.virustotal.com/gui/file-analysis/NTdhOWQ4MTE2MzkxMTlhMDYwNWMyNmZkM2Q1NDRjNmU6MTcwNTc5NDEzMA==" target="_blank">https://www.virustotal.com/gui/file-analysis/NTdhOWQ4MTE2MzkxMTlhMDYwNWMyNmZkM2Q1NDRjNmU6MTcwNTc5NDEzMA==</a>';
+    disclaimerDiv3.style.textAlign = 'center';
+    disclaimerDiv3.className = 'schedule-disclaimer';
+    appDiv.appendChild(disclaimerDiv3);
 
     const imageContainer = document.createElement('div');
     imageContainer.style.display = 'flex';
