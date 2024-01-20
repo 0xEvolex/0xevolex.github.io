@@ -38,7 +38,24 @@ document.addEventListener('DOMContentLoaded', (event) => {
     changeLogDiv.innerHTML = `
         <h3 style="text-align: left;">Changelog</h3>
         <p style="text-align: left;">
-            <h2>1.5 Version - Latest<br></h2>
+            <h2>1.6 Version - Latest<br></h2>
+            1. More timers!<br>
+            <br>
+            &emsp; Added timers for Roc and Medusa<br>
+            <br>
+            1. Bug fixes!<br>
+            <br>
+            &emsp; Fixed a bug on certain windows systems which would cause the app to play no sound at all<br>
+            &emsp; Fixed a bug where the app would crash on certain windows systems that do not have the ppyttsx3 module installed<br>
+            &emsp; Fixed a bug where voice announcements wouldn't be played when the "before start announcement" was set to >0 minutes and >0 seconds.<br>
+            <br>
+            2. Better support!<br>
+            <br>
+            &emsp; Added a logging module that will create an error.log file in the same directory as the app and log any errors that occur<br>
+            &emsp; Added a way to orchestrate messages to all apps to inform about ongoing problems<br>
+            &emsp; Added a way to adjust for server time delay globally<br>
+            <br>
+            <h2>1.5 Version - Outdated<br></h2>
             1. Better visiblity and event tracking!<br>
             <br>
             &emsp; Now only events that are checked will be tracked in the "Next Event" headline.<br>
