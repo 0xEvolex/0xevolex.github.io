@@ -149,6 +149,7 @@
         "Saturday": ["22:20"]
     },
     "Medusa": {
+        "Friday": ["18:20"],
         "Saturday": ["18:20"],
         "Sunday": ["18:20"]
     }
