@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     appDiv.appendChild(disclaimerDiv2);
     
     const disclaimerDiv3 = document.createElement('div');
-    disclaimerDiv3.innerHTML = 'Latest virustotal check: <a href="https://www.virustotal.com/gui/file-analysis/NTdhOWQ4MTE2MzkxMTlhMDYwNWMyNmZkM2Q1NDRjNmU6MTcwNTc5NDEzMA==" target="_blank">https://www.virustotal.com/gui/file-analysis/NTdhOWQ4MTE2MzkxMTlhMDYwNWMyNmZkM2Q1NDRjNmU6MTcwNTc5NDEzMA==</a>';
+    disclaimerDiv3.innerHTML = 'Latest virustotal check: <a href="https://www.virustotal.com/gui/file/85c3859282a417f75d87bb960e14944826f3345d8465cd8ef4cd2f5ee7ff802c/detection" target="_blank">https://www.virustotal.com/gui/file/85c3859282a417f75d87bb960e14944826f3345d8465cd8ef4cd2f5ee7ff802c/detection</a>';
     disclaimerDiv3.style.textAlign = 'center';
     disclaimerDiv3.className = 'schedule-disclaimer';
     appDiv.appendChild(disclaimerDiv3);
