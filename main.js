@@ -50,7 +50,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
     changeLogDiv.innerHTML = `
         <h3 style="text-align: left;">Changelog</h3>
         <p style="text-align: left;">
-            <h2>1.6 Version - Latest<br></h2>
+            <h2>1.7 Version - Latest<br></h2>
+            1. More timers!<br>
+            <br>
+            &emsp; Added timer for Moon Gems<br>
+            <br>
+            2. Usability!<br>
+            <br>
+            &emsp; Window size is now freely adjustable<br>
+            <br>
+            <h2>1.6 Version - Outdated<br></h2>
             1. More timers!<br>
             <br>
             &emsp; Added timers for Roc and Medusa<br>
