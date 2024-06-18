@@ -243,3 +243,37 @@ Moon Gem: |-
 
   INT and STR Scrolls
   Pandora's Box, Monster Summon Scroll, Instant Res Scroll
+Clash of the Gods: |-
+  To participate, register via the Arena Manager NPC, just like any other Clash event.
+  The event features three Egyptian God uniques (Anput, Satis, and Wadjet) and Mummy elite monsters.
+
+  Each Egyptian God unique kill grants [100] points to the player and their team.
+  Each Mummy kill grants [2] points.
+  Each enemy player kill grants [1] point.
+
+  Uniques spawning process:
+  Imagine the event area as 1 straight line with three zones: Blue team zone, Middle zone, and Red team zone. All zones are accessible to all players.
+  Players have 1 minute to form parties and prepare before the battle starts.
+  The first unique, Anput, spawns in the middle zone. The next unique spawns depend on which team killed the previous one and where it died:
+  If a unique dies in the middle zone then the next unique will spawn on the team's zone that didn't kill the unique. So if Red team killed the unique then the next unique will spawn in Blue team's zone.
+  If a unique dies in Red team's zone and Red team killed it, next one will spawn in the middle zone.
+  If a unique dies in Red team's zone and Blue team killed it, next one will spawn in the Red team's zone again.
+  If a unique dies in Blue team's zone and Blue team killed it, next one will spawn in the middle zone.
+  If a unique dies in Blue team's zone and Red team killed it, next one will spawn in the Blue team's zone again.
+  Even if a team lures the unique to its zone, the game captures the death location and spawns the next unique accordingly, preventing any advantage by luring.
+  The logic is simple: an advantage is always given to the team that didn't kill the last unique, ensuring strong competition until the end. Having uniques spawn near your safe zone is a significant advantage, allowing the losing team to make a comeback!
+  Understanding that unique kills mainly concern high-geared INT players, we want all players to contribute meaningfully to their team. Therefore, we've designed a system for lower-geared players and STR characters:
+  When 1st Anput spawns: 40 Mummy monsters also spawn in each team's zone.
+  At 10 minutes left: 40 Mummy monsters spawn in the losing team's zone.
+  At 5 minutes left: 40 Mummy monsters spawn in the losing team's zone.
+  At 2 minutes left: 40 Mummy monsters spawn in the losing team's zone.
+
+  Rewards:
+  Direct to inventory Unique drops (killer party members):
+  1x Wheel of Fate.
+  10 Silver Silks.
+
+  All Mummy monsters: 15% chance to drop Wheel of Fate.
+
+  WIN: 14x Silver/Gold Coins & 9x Coins of Courage.
+  DEFEAT/DRAW: 10x Silver/Gold Coins & 6x Coins of Courage.
