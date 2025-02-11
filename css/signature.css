@@ -1,0 +1,32 @@
+.talking-head {
+    width: 75px;
+    height: 75px;
+}
+
+.talking-head img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: var(--custom-box-shadow_strong);
+    font-size: 24px;
+    padding: 8px 15px;
+    gap: 10px;
+    width: fit-content;
+    background-color: var(--primary-bg-color);
+}
+
+.socials-icons i {
+    transition: transform 0.2s ease-in-out;
+    color: var(--secondary-text-color);
+}
+
+.socials-icons:hover i {
+    transform: scale(1.5);
+}

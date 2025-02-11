@@ -1,0 +1,16 @@
+.announcement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#disclaimer {
+    color: black;
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 0px 20px
+}

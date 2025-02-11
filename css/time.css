@@ -1,0 +1,65 @@
+.timer-widget-container {
+    background-color: var(--secondary-bg-color);
+    border-radius: 10px;
+    box-shadow: var(--custom-box-shadow_weak);
+    width: 100%;
+}
+
+.timer-widget-title {
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.timer-widget-content {
+    padding: 5px;
+}
+
+.timer-widget-divider {
+    border: none;
+    border-top: 1px solid #cccccc1e; /* Farbe und Dicke der Linie */
+}
+
+.timer-widget-time {
+    text-align: center;
+}
+
+.timer-widget-time.registration {
+    color: var(--registration-color);
+    font-weight: bold;
+}
+
+.timer-widget-time.active {
+    color: var(--active-color);
+    font-weight: bold;
+}
+
+.timer-widget-time-disabled {
+    text-align: center;
+    color: var(--text-color-disabled);
+}
+
+.registration {
+    color: var(--registration-color);
+    font-weight: bold;
+}
+
+#time-containers {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.event-status.active {
+    color: var(--active-color);
+    font-weight: bold;
+}
+.time-container {
+    margin: 0 10px;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: var(--secondary-text);
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+}

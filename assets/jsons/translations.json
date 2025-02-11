@@ -1,0 +1,256 @@
+{
+    "talking-Head_title": {
+        "de": "Evolex",
+        "en": "Evolex",
+        "tr": "Evolex",
+        "ar": "Evolex"
+    },
+    "socials_discord_title": {
+        "de": "Besuche mich auf meinem Discord!",
+        "en": "Visit me on my Discord!",
+        "tr": "Beni Discord'da ziyaret edin!",
+        "ar": "FILL"
+    },
+    "socials_twitter_title": {
+        "de": "Besuche mich auf meinem Twitter!",
+        "en": "Visit me on my Twitter!",
+        "tr": "Beni Twitter'da ziyaret edin!",
+        "ar": "FILL"
+    },
+    "socials_github_title": {
+        "de": "Besuche mich auf meinem GitHub!",
+        "en": "Visit me on my GitHub!",
+        "tr": "Beni GitHub'da ziyaret edin!",
+        "ar": "FILL"
+    },
+    "socials_kofi_title": {
+        "de": "Kauf mir einen Kaffee!",
+        "en": "Buy me a coffee!",
+        "tr": "Bana bir kahve ısmarlayın!",
+        "ar": "FILL"
+    },
+    "language-menu_title": {
+        "de": "Sprache auswählen",
+        "en": "Select language",
+        "tr": "Dil seçin",
+        "ar": "FILL"
+    },
+    "btn-language_title": {
+        "de": "Sprache auswählen",
+        "en": "Select language",
+        "tr": "Dil seçin",
+        "ar": "FILL"
+    },
+    "blacklist-menu_title": {
+        "de": "Wähle Events die du verbergen/zeigen möchtest",
+        "en": "Select events you want to hide/unhide",
+        "tr": "Gizlemek/göstermek istediğiniz etkinlikleri seçin",
+        "ar": "FILL"
+    },
+    "btn-blacklist_title": {
+        "de": "Wähle Events die du verbergen/zeigen möchtest",
+        "en": "Select events you want to hide/unhide",
+        "tr": "Gizlemek/göstermek istediğiniz etkinlikleri seçin",
+        "ar": "FILL"
+    },
+    "announcer-menu_title": {
+        "de": "Wähle Ansagerstimme aus",
+        "en": "Select announcer voice",
+        "tr": "Spiker sesini seçin",
+        "ar": "FILL"
+    },
+    "btn-announcer_title": {
+        "de": "Wähle Ansagerstimme aus",
+        "en": "Select announcer voice",
+        "tr": "Spiker sesini seçin",
+        "ar": "FILL"
+    },
+    "pre-alert-menu_title": {
+        "de": "Erinnere mich X Minuten vor einem Event",
+        "en": "Remind me X minutes before an event",
+        "tr": "Bir etkinlikten X dakika önce bana hatırlat",
+        "ar": "FILL"
+    },
+    "btn-pre-alert_title": {
+        "de": "Erinnere mich X Minuten vor einem Event",
+        "en": "Remind me X minutes before an event",
+        "tr": "Bir etkinlikten X dakika önce bana hatırlat",
+        "ar": "FILL"
+    },
+    "pre-alert-value_textContent": {
+        "de": "0 Minuten",
+        "en": "0 minutes",
+        "tr": "0 dakika",
+        "ar": "FILL"
+    },
+    "volume-slider-container_title": {
+        "de": "Lautstärke aller Events",
+        "en": "Adjust all event volume",
+        "tr": "Tüm etkinlikler için ses düzeyini ayarlayın",
+        "ar": "FILL"
+    },
+    "btn-volume_title": {
+        "de": "Stummschalten/Entstummen aller Ansagen",
+        "en": "Mute/Unmute all sound notifications",
+        "tr": "Tüm sesli bildirimleri sessize al/sesini aç",
+        "ar": "FILL"
+    },
+    "disclaimer_textContent": {
+        "de": "",
+        "en": "",
+        "tr": "",
+        "ar": ""
+    },
+    "fortress-war-title_textContent": {
+        "de": "Fortress War",
+        "en": "Fortress War",
+        "tr": "Fortress War",
+        "ar": "FILL"
+    },
+    "genie-reset-title_textContent": {
+        "de": "Genie Reset",
+        "en": "Genie Reset",
+        "tr": " Genie Lamba Reset Zamanı",
+        "ar": "FILL"
+    },
+    "calendar-reset-title_textContent": {
+        "de": "Kalender Reset",
+        "en": "Calendar Reset",
+        "tr": "Takvim Reset Zamanı",
+        "ar": "FILL"
+    },
+    "user-time_title": {
+        "de": "Alle Events werden in deiner lokalen Zeit angezeigt, nicht in der Serverzeit.",
+        "en": "All events are displayed in your local time, not server time.",
+        "tr": "Tüm etkinlikler sunucu saatine göre değil, sizin yerel saatinize göre görüntülenir.",
+        "ar": "FILL"
+    },
+    "footer-container-center_title": {
+        "de": "FILL",
+        "en": "This project is a standalone effort by Evolex.",
+        "tr": "Bu proje, Evolex tarafından yürütülen bağımsız bir girişimdir.",
+        "ar": "FILL"
+    },
+    "fan_made_project": {
+        "de": "Fan-Projekt von Evolex",
+        "en": "Fan-made project by Evolex",
+        "tr": "Evolex'in hayran yapımı projesidir",
+        "ar": "FILL"
+    },
+    "server-time_title": {
+        "de": "Alle Events werden in deiner lokalen Zeit angezeigt, nicht in der Serverzeit.",
+        "en": "All events are displayed in your local time, not server time.",
+        "tr": "Tüm etkinlikler sunucu saatine göre değil, sizin yerel saatinize göre görüntülenir.",
+        "ar": "FILL"
+    },
+    "btn-introduction_title": {
+        "de": "Einführung anzeigen",
+        "en": "Show Introduction",
+        "tr": "Girişi Göster",
+        "ar": "FILL"
+    },
+    "introduction_modal_title": {
+        "de": "Einführung",
+        "en": "Introduction",
+        "tr": "Giriş",
+        "ar": "FILL"
+    },
+    "introduction_modal_content": {
+        "de": "Das Hauptziel dieser Website ist es, eine einfache und benutzerfreundliche Oberfläche zur Verfolgung von Ereignissen auf dem Sailor Online Persian Empire Server (125 Cap) bereitzustellen. Es verfolgt alle Ereignisse in Echtzeit und übersetzt sie in Ihre Zeitzone. Zusätzlich erhalten Sie Tonalarme für bevorstehende Ereignisse, auch wenn der Browser minimiert ist. So verpassen Sie nie wieder ein Ereignis!",
+        "en": "The primary goal of this website is to provide a simple and easy-to-use interface for tracking events on the Sailor Online Persian Empire server (125 Cap). It tracks all events in real-time and translates them into your timezone. Additionally, it will provide you with sound alerts for upcoming events, even while the browser is minimized. So you'll never miss an event again!",
+        "tr": "Bu web sitesinin temel amacı, Sailor Online Persian Empire sunucusundaki (125 Cap) etkinlikleri izlemek için basit ve kullanımı kolay bir arayüz sağlamaktır. Tüm etkinlikleri gerçek zamanlı olarak izler ve bunları kendi saat diliminize çevirir. Ayrıca, tarayıcı küçültülmüş olsa bile, yaklaşan etkinlikler için sesli uyarılar sağlar. Böylece bir etkinliği asla kaçırmazsınız! ",
+        "ar": "FILL"
+    },
+    "introduction_mute_description": {
+        "de": "Ermöglicht das Stummschalten/Entstummen und Anpassen der Lautstärke des Tons.",
+        "en": "Allows to mute/unmute and adjust the volume of the sound.",
+        "tr": "Sesi kapatma/açma ve ses seviyesini ayarlama imkanı sağlar. ",
+        "ar": "FILL"
+    },
+    "introduction_pre_register_description": {
+        "de": "Legt die Zeit fest, in der das Ereignis angekündigt wird, bevor es beginnt.",
+        "en": "Sets the time in which the event will be announced before it starts.",
+        "tr": "Etkinlik başlamadan önce duyurulacağı zamanı ayarlar.",
+        "ar": "FILL"
+    },
+    "introduction_voice_selector_description": {
+        "de": "Ermöglicht die Auswahl der Stimme für Text-zu-Sprache-Ankündigungen. Diese sind browser- und/oder systemabhängig.",
+        "en": "Allows you to select the voice for text-to-speech announcements. These are browser and/or system dependent.",
+        "tr": "Metinden sese duyurular için sesi seçmenize olanak tanır. Bu, tarayıcıya ve/veya sisteme bağlıdır.",
+        "ar": "FILL"
+    },
+    "introduction_blacklist_description": {
+        "de": "Ereignisse aus der Tabelle ausblenden/anzeigen. Ausgeblendete Ereignisse werden nicht mehr angekündigt.",
+        "en": "Show/hide events from the table. Hidden events will not be announced anymore.",
+        "tr": "Tablodan etkinlikleri göster/gizle. Gizli etkinlikler artık duyurulmayacaktır.",
+        "ar": "FILL"
+    },
+    "introduction_language_description": {
+        "de": "Ermöglicht die Auswahl der Sprache für die Website. Noch in Entwicklung.",
+        "en": "Allows you to select the language for the website. Still in development.",
+        "tr": "Web sitesi için dil seçmenize olanak tanır. Hâlâ geliştirilme aşamasındadır.",
+        "ar": "FILL"
+    },
+    "introduction_event_name_description": {
+        "de": "Event Name: Der Name des Events",
+        "en": "Event Name: The name of the event.",
+        "tr": "Etkinlik Adı: Etkinliğin adı.",
+        "ar": "FILL"
+    },
+    "introduction_remaining_time_description": {
+        "de": "Verbleibende Zeit: Zeit bis zum Beginn oder Ende des Events (falls aktiv). Orange zeigt an, dass die Registrierungsperiode läuft.",
+        "en": "Remaining Time: Time until the event starts or ends (if active). Orange indicates the registration period is running.",
+        "tr": "Kalan Zaman: Etkinlik başlayana kadar olan süre veya etkinlik devam ediyorsa, etkinlik bitene kadar olan süre. Turuncu kısım etkinliğe kayıt süresinin devam ettiğini gösterir.",
+        "ar": "FILL"
+    },
+    "introduction_register_method_description": {
+        "de": "Registrierungsmethode: Die Methode zur Registrierung für das Event.",
+        "en": "Register Method: The method to register for the event.",
+        "tr": "Kayıt Yöntemi: Etkinliğe kayıt olmak için kullanılan yöntem.",
+        "ar": "FILL"
+    },
+    "introduction_next_event_date_description": {
+        "de": "Nächstes Ereignisdatum: Datum und Uhrzeit des nächsten Events",
+        "en": "Next Event Date: The date and time of the next event.",
+        "tr": "Sonraki Etkinlik Tarihi: Sonraki etkinliğin tarihi ve saati.",
+        "ar": "FILL"
+    },
+    "introduction_sound_description": {
+        "de": "Ton: Die Toneinstellungen für ein spezielles Event",
+        "en": "Sound: The sound settings for this specific event.",
+        "tr": "Ses: Belirli bir etkinlik için ses ayarları.",
+        "ar": "FILL"
+    },
+    "tableHeaders": {
+        "eventName": {
+            "de": "Ereignisname",
+            "en": "Event Name",
+            "tr": "FILL",
+            "ar": "FILL"
+        },
+        "remainingTime": {
+            "de": "Verbleibende Zeit",
+            "en": "Remaining Time",
+            "tr": "FILL",
+            "ar": "FILL"
+        },
+        "registerMethod": {
+            "de": "Registrierungsmethode",
+            "en": "Register Method",
+            "tr": "FILL",
+            "ar": "FILL"
+        },
+        "nextEventDate": {
+            "de": "Nächstes Ereignisdatum",
+            "en": "Next Event Date",
+            "tr": "FILL",
+            "ar": "FILL"
+        },
+        "sound": {
+            "de": "Event Ton",
+            "en": "Event Sound",
+            "tr": "FILL",
+            "ar": "FILL"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#volume-slider.disabled, #pre-alert-slider.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#volume-value, #pre-alert-value {
+    font-size: 14px;
+    color: var(--primary-text-color);
+    white-space: nowrap;
+}
+
+.remind-bell-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    background-color: var(--quinary-bg-color);
+    border-radius: 100%;
+    cursor: pointer;
+    margin: auto;
+}
+
+.remind-bell {
+    font-size: 16px;
+}

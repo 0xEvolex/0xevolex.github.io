@@ -1,0 +1,85 @@
+#introduction-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-start; /* Align items to the start vertically */
+    justify-content: center;
+    padding-top: 50px; /* Add spacing from the top */
+    animation: slideDown 0.5s ease-out;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.introduction-modal-content {
+    background-color: var(--primary-bg-color);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    width: 80%;
+    color: var(--primary-text-color);
+    max-height: calc(100% - 100px); /* Ensure it doesn't overflow the screen */
+    overflow-y: auto; /* Add scroll if content is too long */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.introduction-close {
+    color: var(--primary-text-color);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.introduction-close:hover,
+.introduction-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.introduction-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.introduction-table td {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+}
+
+.introduction-table ul {
+    padding-left: 20px;
+}
+
+.introduction-table button {
+    background: none;
+    border: none;
+    cursor: default;
+    outline: none;
+    font-size: 16px;
+}
+
+.introduction-table i {
+    font-size: 24px;
+}
+
+.imitation-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: var(--secondary-bg-color);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.329);
+    cursor: default;
+}
+
+.imitation-button i {
+    color: var(--primary-text-color);
+    font-size: 20px;
+}

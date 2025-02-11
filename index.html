@@ -2,40 +2,221 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5;url=https://evolex.dev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Moved</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            text-align: center;
-        }
-        .redirect-message {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Sailor Timers</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TPEQWE04YX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TPEQWE04YX');
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/variables.css">
+    <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdowns.css">
+    <link rel="stylesheet" type="text/css" href="css/elements.css">
+    <link rel="stylesheet" type="text/css" href="css/tables.css">
+    <link rel="stylesheet" type="text/css" href="css/introduction.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/time.css">
+    <link rel="stylesheet" type="text/css" href="css/signature.css">
+    <link rel="stylesheet" type="text/css" href="css/announcement.css">
+    <link rel="stylesheet" type="text/css" href="css/temp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/colreorder/1.5.4/css/colReorder.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
+    <script src="js/modules/translate.js" defer></script>
 </head>
 <body>
-    <div class="redirect-message">
-        <h1>Website has moved</h1>
-        <p>Please visit <a href="https://evolex.dev">https://evolex.dev</a> instead.</p>
-        <p>You will be redirected in 5 seconds.</p>
+    <div id="header">
+        <div class="header-left-outer">
+            <div class="talking-head" title="">
+                <img src="assets/images/pfp.gif" alt="Logo">
+            </div>
+            <div class="socials">
+                <div class="socials-icon">
+                    <a href="https://discord.com/invite/zMNUVVF3Gx" target="_blank" class="socials-icons" title="">
+                        <i class="fab fa-discord nav-icon"></i>
+                    </a>
+                </div>
+                <div class="socials-icon">
+                    <a href="https://twitter.com/Evolexwastaken" target="_blank" class="socials-icons" title="">
+                        <i class="fab fa-x-twitter nav-icon"></i>
+                    </a>
+                </div>
+                <div class="socials-icon">
+                    <a href="https://github.com/0xEvolex/" target="_blank" class="socials-icons" title="">
+                        <i class="fab fa-github nav-icon"></i>
+                    </a>
+                </div>
+                <div class="socials-icon">
+                    <a href="https://ko-fi.com/evolex" target="_blank" class="socials-icons" title="">
+                        <i class="fas fa-coffee nav-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <a href="/downloads">
+                <button id="btn-downloads" class="btn-rectangle">Downloads</button>
+            </a>
+        </div>
+        <div class="header-left-inner">
+        </div>
+        <div class="header-center">
+            <img src="assets/images/sailor_logo_pe.png" alt="Logo" class="logo">
+        </div>
+        <div class="header-right-inner">
+            
+        </div>
+        <div class="header-right-outer">
+            <div class="language-menu" title="">
+                <button id="btn-language" title="">
+                    <i id="ic-language" class="fa fa-globe"></i>
+                </button>
+                <div id="language-dropdown" class="language-dropdown">
+                    <!-- Options will be populated dynamically -->
+                </div>
+            </div>
+            <div class="blacklist-menu">
+                <button id="btn-blacklist" title="">
+                    <i id="ic-blacklist" class="fa fa-eye"></i>
+                </button>
+                <div id="blacklist-dropdown" class="blacklist-dropdown">
+                    <!-- Options will be populated dynamically -->
+                </div>
+            </div>
+            <div class="announcer-menu">
+                <button id="btn-announcer" title="">
+                    <i id="ic-announcer" class="fa fa-microphone"></i>
+                </button>
+                <div id="announcer-dropdown" class="announcer-dropdown">
+                    <!-- Options will be populated dynamically -->
+                </div>
+            </div>
+            <div class="pre-alert-menu">
+                <button id="btn-pre-alert" title="">
+                    <i id="ic-pre-alert" class="fa fa-stopwatch"></i>
+                </button>
+                <div class="pre-alert-slider-container" title="">
+                    <input type="range" id="pre-alert-slider" min="1" max="30" step="1" value="30">
+                    <span id="pre-alert-value">0 minutes</span>
+                </div>
+            </div>
+            <div class="volume-menu">
+                <button id="btn-volume" title="">
+                    <i id="ic-volume" class="fa fa-bell"></i>
+                </button>
+                <div class="volume-slider-container" title="">
+                    <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+                    <span id="volume-value">100%</span>
+                    <audio id="activate-sound" src="assets/sounds/activate-sound.mp3"></audio>
+                </div>
+            </div>
+            <div class="introduction-menu">
+                <button id="btn-introduction" title="">
+                    <i id="ic-introduction" class="fa fa-question"></i>
+                </button>
+            </div>
+            <div id="introduction-modal" class="introduction-modal" style="display: none;">
+                <div class="introduction-modal-content">
+                    <span class="introduction-close">&times;</span>
+                    <h2>Introduction</h2>
+                    <p>The primary goal of this website is to provide a simple and easy-to-use interface for tracking events on the Sailor Online Persian Empire server (125 Cap). It tracks all events in real-time and translates them into your timezone. Additionally, it will provide you with sound alerts for upcoming events, even while the browser is minimized. So you'll never miss an event again!</p>
+                    <table class="introduction-table">
+                        <tr>
+                            <td><div class="imitation-button" title="Mute"><i class="fa fa-bell"></i></div></td>
+                            <td id="introduction-mute-description">Allows to mute/unmute and adjust the volume of the sound.</td>
+                        </tr>
+                        <tr>
+                            <td><div class="imitation-button" title="Pre Register"><i class="fa fa-stopwatch"></i></div></td>
+                            <td id="introduction-pre-alert-description">Sets the time in which the event will be announced before it starts.</td>
+                        </tr>
+                        <tr>
+                            <td><div class="imitation-button" title="Voice Selector"><i class="fa fa-microphone"></i></div></td>
+                            <td id="introduction-voice-selector-description">Allows you to select the voice for text-to-speech announcements. These are browser and/or system dependent.</td>
+                        </tr>
+                        <tr>
+                            <td><div class="imitation-button" title="Blacklist"><i class="fa fa-eye"></i></div></td>
+                            <td id="introduction-blacklist-description">Show/hide events from the table. Hidden events will not be announced anymore.</td>
+                        </tr>
+                        <tr>
+                            <td><div class="imitation-button" title="Language"><i class="fa fa-globe"></i></div></td>
+                            <td id="introduction-language-description">Allows you to select the language for the website. Still in development.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Table</strong></td>
+                            <td>
+                                <ul>
+                                    <li id="introduction-event-name-description"><strong>Event Name:</strong> The name of the event.</li>
+                                    <li id="introduction-remaining-time-description"><strong>Remaining Time:</strong> Time until the event starts or ends (if active). Orange indicates the registration period is running.</li>
+                                    <li id="introduction-register-method-description"><strong>Register Method:</strong> The method to register for the event.</li>
+                                    <li id="introduction-next-event-date-description"><strong>Next Event Date:</strong> The date and time of the next event.</li>
+                                    <li id="introduction-sound-description"><strong>Sound:</strong> The sound settings for this specific event.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+    <main>
+        <div class="announcement-container">
+            <div id="disclaimer"></div>
+        </div>
+        <div id="table">
+            <div id="table-left-side">
+                <div class="timer-widget-container">     
+                </div>
+                <div class="timer-widget-container">     
+                    <div class="timer-widget-content">
+                        <div class="timer-widget-title fortress-war-title"></div>
+                        <hr class="timer-widget-divider">
+                        <div class="timer-widget-time" id="fortress-war-time">-</div>
+                    </div>
+                </div>
+                <div class="timer-widget-container">
+                    <div class="timer-widget-content">
+                        <div class="timer-widget-title genie-reset-title"></div>
+                        <hr class="timer-widget-divider">
+                        <div class="timer-widget-time" id="genie-reset-time">-</div>
+                    </div>
+                </div>
+                <div class="timer-widget-container">
+                    <div class="timer-widget-content">
+                        <div class="timer-widget-title calendar-reset-title"></div>
+                        <hr class="timer-widget-divider">
+                        <div class="timer-widget-time" id="calendar-reset-time">-</div>
+                    </div>
+                </div>
+            </div>
+            <div id="table-container">
+                <!-- Table is generated here -->
+            </div>
+        </div>
+    </main>
+    <footer id="main-footer">
+        <div class="footer-container left">
+            <span id="user-time" title=""></span>
+            <select id="gmt-offset-dropdown" class="gmt-offset-dropdown">
+                <!-- Options will be populated dynamically -->
+            </select>
+        </div>
+        <div class="footer-container center" title=""></div>
+        <div class="footer-container right" title="">
+            <span id="server-time"></span>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
