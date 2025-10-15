@@ -1,0 +1,47 @@
+name: Sync xSROMap upstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # Every Monday at 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout upstream xSROMap
+        uses: actions/checkout@v4
+        with:
+          repository: JellyBitz/xSROMap
+          ref: main
+          path: upstream-xSROMap
+
+      - name: Mirror upstream into site root
+        run: |
+          rsync -a --delete \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude "upstream-xSROMap" \
+            --exclude "index.html" \
+            upstream-xSROMap/ ./
+          touch .nojekyll
+
+      - name: Commit and push if changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "chore(sync): update xSROMap from upstream"
+            git push
+          else
+            echo "No changes to commit"
+          fi
