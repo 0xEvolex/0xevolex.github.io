@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: JellyBitz/xSROMap
-          ref: main
+          ref: master
           path: upstream-xSROMap
 
       - name: Mirror upstream into site root
