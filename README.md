@@ -1,21 +1,3 @@
-# 0xevolex.github.io
-
-This GitHub Pages site hosts a self-hosted copy of xSROMap under the root domain.
-
-Upstream project: https://github.com/JellyBitz/xSROMap (MIT License)
-
-How this repo is organized
-- The site root contains the static files from xSROMap so it serves at https://0xevolex.github.io/
-- The upstream repository is added as a submodule at `upstream-xSROMap/` to make updates easy.
-- A `.nojekyll` file disables Jekyll processing so asset paths work.
-
-Update steps
-1. Pull latest upstream into the submodule: `git submodule update --remote upstream-xSROMap`
-2. Copy the updated files into the root (Windows): `robocopy .\upstream-xSROMap . /MIR /XD .git .github upstream-xSROMap`
-3. Commit and push: `git add -A && git commit -m "Update xSROMap from upstream" && git push`
-
-Below is the original xSROMap README for reference.
-
 # xSROMap
 The easy way to explore the [**Silkroad Online**](http://www.joymax.com/silkroad/) world map.
 
